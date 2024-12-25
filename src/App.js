@@ -10,6 +10,9 @@ function App() {
      <h2>
       todo list 
      </h2>
+     <h3>
+      search
+     </h3>
     </div>
   );
 }
