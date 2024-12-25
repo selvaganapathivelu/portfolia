@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
       selvaganapathi
      </h1>
      <h2>
-      todo list
+      todo list 
      </h2>
     </div>
   );
