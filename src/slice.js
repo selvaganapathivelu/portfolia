@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit"; 
-// import Addcustomer from "./addCustomer";
 const initialState=[]
 const costomerSlice=createSlice({
     name:"add_customer",
