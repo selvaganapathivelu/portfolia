@@ -8,10 +8,7 @@ const costomerSlice=createSlice({
         Addcustomer(state,action){
             state.push(action.payload)
         },
-        deleteCustomer(state, action) {
-            const deleteIndex = action.payload;
-            return state.filter((val, index) => index !== deleteIndex);
-          }
+     
     }
 })
 
