@@ -7,10 +7,14 @@ const costomerSlice=createSlice({
     reducers:{
         Addcustomer(state,action){
             state.push(action.payload)
-        }
+        },
+        deleteCustomer(state, action) {
+            const deleteIndex = action.payload;
+            return state.filter((val, index) => index !== deleteIndex);
+          }
     }
 })
 
-export const {Addcustomer}=costomerSlice.actions
+export const {Addcustomer,deleteCustomer}=costomerSlice.actions
 
 export default costomerSlice.reducer
