@@ -1,24 +1,16 @@
 
+import Addcustomer from './addCustomer';
 import './App.css';
+import Viewcustomer from './viewCustomer';
 
 function App() {
   return (
     <div className="App">
-     <h1>
-      selvaganapathi
-     </h1>
-     <h2>
-      todo list 
-     </h2>
-     <h3>
-      search
-     </h3>
-     <h4>
-      hello
-     </h4>
-     <h1>
-   check
-     </h1>
+  <h1>
+    todo list
+  </h1>
+  <Addcustomer/>
+  <Viewcustomer/>
     </div>
   );
 }
