@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit"; 
-// import Addcustomer from "./addCustomer";
-const initialState=[]
+const initialState=[];
 const costomerSlice=createSlice({
     name:"add_customer",
     initialState,
@@ -8,10 +7,7 @@ const costomerSlice=createSlice({
         Addcustomer(state,action){
             state.push(action.payload)
         },
-        deleteCustomer(state, action) {
-            const deleteIndex = action.payload;
-            return state.filter((val, index) => index !== deleteIndex);
-          }
+     
     }
 })
 
